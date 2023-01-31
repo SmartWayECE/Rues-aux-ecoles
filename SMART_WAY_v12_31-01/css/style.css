@@ -1,0 +1,374 @@
+/***********************/
+/*** menu navigation ***/
+/***********************/
+.logo {
+    float: left;
+    height: 220px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+  header img {
+    padding: 0px 5px 0px 50px;
+  }
+  nav {
+    padding: 75px 60px 0px 0px;
+  }
+  @media(max-width: 1399px) {
+    nav {
+      width: 80%;
+    }
+  }
+  nav li {
+    list-style-type: none;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: block;
+    float: left;
+    text-align: center;
+  }
+  nav ul {
+    margin: 0px;
+    float: right;
+  }
+  .menu {
+    font-weight: bold;
+    display: block;
+    padding: 0px 60px;
+    height: 50px;
+    line-height: 50px;
+    color: black;
+    text-decoration: none;
+  }
+  .menu:hover, .menusand:hover {
+    color: rgb(16 144 72)
+  }
+  header {
+    border-radius: 4px 4px 0px 0px;
+    height: 250px;
+    width: 100%;
+  }
+
+  @media(max-width: 500px) {
+    .logo, nav {
+      width: 50px;
+      height: 50px;
+      font-size: 0.6em;
+    }
+    header {
+      height: 50px;
+    }
+  }
+
+/*********************************/
+/*** Commun à toutes les pages ***/
+/*********************************/
+.titre h1 {
+  margin-top: 0px;
+    margin-bottom: 50px;
+}
+html {
+  margin: auto;
+}
+body {
+    text-align: center;
+    width: 1400px;
+    margin: auto;
+}
+#up {
+  position: fixed;
+  display: block;
+  text-align: right;
+  
+  right: 50px;
+  bottom: 95px;
+    
+  border: none;
+  outline: none;
+
+  padding: 0px;
+  height: 0px;
+}
+#up img {
+  padding: 0px;
+}
+
+/********************/
+/*** Page ACCUEIL ***/
+/********************/
+.illustration {
+  margin-left: 0px;
+}
+.illustration img {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 450px;
+}
+.damier {
+  float: center;
+}
+.presentation p {
+  text-align: left;
+  font-size: 23px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.presentation div {
+  text-align: left;
+  font-size: 23px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.presentation div li {
+  margin-left: 30px;
+}
+.objectif {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.fin {
+  margin-top: 0px;
+  padding-left: 30px;
+  margin-bottom: 50px;
+}
+
+/****************************/
+/*** Page RUES AUX ECOLES ***/
+/****************************/
+.champ {
+  border-radius: 5px 0px 0px 5px;
+  border-color: black;
+  border-width: 1px;
+  width: 250px;
+  padding: 3px;
+  padding-top: 5px;
+  height: 30px;
+  float:left;
+}
+.select {
+  border-radius: 0px 5px 5px 0px;
+  border-color: black;
+  margin-left: 0px;
+  border-width: 0.5px;
+  background-color: white;
+  width: 50px;
+  padding: 3px;  
+  padding-top: 5px;
+
+}
+.select:hover {
+  color: white;
+  background-color: rgb(0 166 81);
+}
+.corps h2 {
+  margin-left: 200px;
+  margin-top: 5px;
+  float: left;
+}
+.selection {
+  text-align: left;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 520px;
+}
+.ecole {
+  text-align: left;
+  margin-left: 200px;
+}
+.map {
+  float: left;
+  margin-left: 200px;
+  margin-right: 50px;
+}
+.rue {
+  text-align: left;
+}
+.validation {
+  width: 60px;
+  float: left;
+}
+.check {
+  color: green;
+  float: left;
+  height: 40px;
+  padding-top: 25px;
+  margin-left: 5px;
+  margin-right: 190px;
+}
+.croix {
+  color: red;
+  float: left;
+  height: 40px;
+  padding-top: 22px;
+  margin-left: 5px;
+  margin-right: 237px;
+}
+#output {
+  margin-bottom: 250px;
+}
+.resultat {
+  text-align: left;
+  padding-top: 80px;
+  margin-top: 180px;
+  margin-left: 200px;
+  margin-bottom: 500px;
+}
+.resultat div p {
+  font-size: 30px;
+  font-weight: bold;
+  float: left;
+  margin-top: 10px;
+}
+.resultat img {
+  width: 60px;
+  margin-left: 20px;
+}
+.contenu {
+  font-size: 20px;
+}
+.rouge {
+  color: red;
+}
+.vert {
+  color: green;
+}
+#map {
+  height: 450px;
+  width: 600px;
+}
+.conteneur {
+  padding-bottom: 50px;
+}
+
+/*****************************/
+/*** Page ILOTS DE CHALEUR ***/
+/*****************************/ 
+.classement {
+  font-size: 20px;
+  margin-left: 400px;
+  margin-right: 200px;
+  text-align: left;
+}
+.classement h2 {
+  margin-bottom: 20px;
+}
+.classement li {
+  list-style-type: none;
+}
+.couleurRouge {
+  color: rgb(167, 0, 0);
+  background: rgb(204, 37, 37);
+  background: linear-gradient(to bottom right, rgb(251, 165, 165), white );
+  border-radius: 5px;
+  margin-bottom: 5px;
+  padding: 2px;
+  width: 515px;
+  padding-left: 10px;
+}
+.couleurOrange {
+  color: rgb(241, 147, 6);
+  background: linear-gradient(to bottom right, rgb(255, 229, 205), white );
+  border-radius: 5px;
+  margin-bottom: 5px;
+  padding: 2px;
+  width: 515px;
+}
+.couleurVert {
+  color: rgb(61, 160, 7);
+  background: linear-gradient(to bottom right, rgb(183, 234, 183), white );
+  border-radius: 5px;
+  margin-bottom: 5px;
+  padding: 2px;
+  width: 515px;
+}
+
+/*********************/
+/*** Page A PROPOS ***/
+/*********************/
+.introduction {
+  text-align: left;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.introduction p {
+  font-size: 23px;
+  text-align: justify;
+}
+.membre {
+  margin-top: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-size: 20px;
+  text-align: left;
+}
+.membre p {
+  width: 700px;
+}
+.membre img {
+  float: right;
+  width: 300px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.equipe h2 {
+  margin-top: 100px;
+  font-size: 30px;
+}
+#nina {
+  margin-bottom: 150px;
+}
+#nina p {
+  margin-top: 50px;
+}
+#nina img {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#lg img {
+  margin-top: 40px;
+}
+#oceane {
+  margin-top: 110px;
+}
+#oceane img {
+  margin-top: 0px;
+}
+#oceane p {
+  margin-top: 40px;
+}
+#gauthier {
+  margin-top: 130px;
+}
+#gauthier img {
+  margin-top: 20px;
+}
+#anatole {
+  margin-top: 70px;
+}
+#anatole img {
+  margin-top: 80px;
+}
+#charlotte {
+  margin-top: 60px;
+  margin-bottom: 170px;
+}
+#charlotte p {
+  margin-top: 50px;
+}
+
+/****************/
+/**** Footer ****/
+/****************/
+footer {
+  text-align: center;
+  color: white;
+  background-color: black;
+  border-radius: 0px 0px 4px 4px;
+  margin-top: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
